@@ -1,0 +1,36 @@
+{
+  "name": "es2015-default-class-properties",
+  "version": "1.0.0",
+  "description": "Add inheritable default properties to your ES2015 classes! Inherit from this base class and make sure every instance created has the same default values set on it before your constructor runs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec --ui qunit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epicmiller/es2015-default-class-properties.git"
+  },
+  "keywords": [
+    "es2015"
+    "es2016",
+    "class",
+    "properties"
+  ],
+  "author": "Adam Miller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/epicmiller/es2015-default-class-properties/issues"
+  },
+  "homepage": "https://github.com/epicmiller/es2015-default-class-properties#readme",
+  "dependencies": {
+    "install": "^0.6.1",
+    "mocha": "^2.4.5",
+    "npm": "^3.8.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0"
+  },
+  "engines": {
+    "node": ">=3.0.0"
+  }
+}
