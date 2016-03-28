@@ -24,10 +24,10 @@
   "homepage": "https://github.com/epicmiller/es2015-default-class-properties#readme",
   "dependencies": {
     "install": "^0.6.1",
-    "mocha": "^2.4.5",
     "npm": "^3.8.3"
   },
   "devDependencies": {
+    "mocha": "^2.4.5",
     "chai": "^3.5.0"
   },
   "engines": {
