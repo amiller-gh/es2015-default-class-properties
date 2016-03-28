@@ -1,5 +1,5 @@
 # ES2015 Default Class Properties
-## Add inheritable default properties to your es2015 classes!
+### Add inheritable default properties to your es2015 classes!
 
 It is notoriously difficult to add static properties to an ES2015 javascript class definition, and many frameworks and users have been struggling to adapt to the new standard. For more context on the problem, and for other proposed solutions, please read Ben McCormick's wonderful blog post on the issue: [http://benmccormick.org/2015/07/06/backbone-and-es6-classes-revisited/](http://benmccormick.org/2015/07/06/backbone-and-es6-classes-revisited/)
 
@@ -28,7 +28,7 @@ class Model extends ClassProperties { }
 `ClassProperties` exposes just two static class methods that let you easily define default properties on your classes.
 
 #### ClassProperties.defaults
-Pass a single POJO with properties you want defined on every instance of this class and its derived sub classes. Every sub-class of `ClassProperties` will also have the `defaults` method on it. You are not required to call `defaults` when extending, its entirely optional!
+Pass a single object with the properties you want defined on every instance of this class and its derived sub classes. Every sub-class of `ClassProperties` will also have the `defaults` method on it. You are not required to call `defaults` when extending, its entirely optional!
 
 Defaults are inherited from parent classes and can be overridden by sub-classes. They are all applied directly to the instance, they are not on the prototype. Objects passes as defaults are deeply cloned, so no two instances ever share an object reference!
 
