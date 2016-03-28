@@ -11,7 +11,7 @@
     "url": "git+https://github.com/epicmiller/es2015-default-class-properties.git"
   },
   "keywords": [
-    "es2015"
+    "es2015",
     "es2016",
     "class",
     "properties"
