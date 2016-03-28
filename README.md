@@ -3,7 +3,7 @@
 
 It is notoriously difficult to add static properties to an ES2015 javascript class definition, and many frameworks and users have been struggling to adapt to the new standard. For more context on the problem, and for other proposed solutions, please read Ben McCormick's wonderful blog post on the issue: [http://benmccormick.org/2015/07/06/backbone-and-es6-classes-revisited/](http://benmccormick.org/2015/07/06/backbone-and-es6-classes-revisited/)
 
-In leu of a syntactically beautiful way to easily do this with vanilla JS classes, and new JavaScript features (decorators) at least two to three years away from approval and implementation in browsers, I created __es2015-default-class-properties__.
+In leu of a syntactically beautiful way to easily do this with vanilla JS classes, and new JavaScript features (decorators & class properties) at least two to three years away from approval and implementation in browsers, I created __es2015-default-class-properties__.
 
 Inherit from this base class and make sure every instance created has the same default values set on it before any constructors run. The default properties are deeply cloned and placed directly on each instance, not the prototype, so nothing is shared between them. Sub-classes inherit their parents' default properties and are able to declare their own.
 
