@@ -22,10 +22,7 @@
     "url": "https://github.com/epicmiller/es2015-default-class-properties/issues"
   },
   "homepage": "https://github.com/epicmiller/es2015-default-class-properties#readme",
-  "dependencies": {
-    "install": "^0.6.1",
-    "npm": "^3.8.3"
-  },
+  "dependencies": {},
   "devDependencies": {
     "mocha": "^2.4.5",
     "chai": "^3.5.0"
